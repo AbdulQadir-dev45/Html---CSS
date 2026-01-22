@@ -55,7 +55,6 @@ nav a:hover {
     border-radius: 4px;
 }
 
-
 /* =====================
    Main Content
 ===================== */
@@ -116,7 +115,7 @@ table tr:nth-child(even) {
 .special-cakes,
 .special-drinks {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
 
@@ -194,8 +193,12 @@ footer p {
 ===================== */
 @media (max-width: 768px) {
     nav {
-        flex-direction: column;
-        gap: 10px;
+        height: auto;
+    }
+
+    nav a {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     main {
