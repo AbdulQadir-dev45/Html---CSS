@@ -194,6 +194,7 @@ footer p {
 @media (max-width: 768px) {
     nav {
         height: auto;
+        gap: 0px;
     }
 
     nav a {
